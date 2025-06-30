@@ -21,7 +21,6 @@ const findOneNotificacionesSchema = {
             id: { type: 'integer' },
             ...notificacion,
             ...responseProperties,
-            emailHtml: { type: 'string' },
           },
         },
       },
